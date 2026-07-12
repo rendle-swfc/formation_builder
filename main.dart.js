@@ -25504,13 +25504,13 @@ j=i}s.WO(new A.C0(p,B.Qo,o,j,h))
 s.Ig()},
 aGK(){var s,r,q,p,o=A.c([],t.lk),n=$.aw(),m=A.c([],t.UG),l=J.ys(3,t.D4)
 for(s=t.mV,r=0;r<3;++r){q=A.c(new Array(6),s)
-for(p=0;p<6;++p)q[p]=new A.m3(null,1)
+for(p=0;p<6;++p)q[p]=new A.m3(null,1,0,1)
 l[r]=q}return new A.Jv(o,new A.Bx(new A.cy("New Formation",B.iv,B.bz),n),new A.Bx(B.A3,n),m,l,$.aw())},
-m3:function m3(a,b){var _=this
+m3:function m3(a,b,c,d){var _=this
 _.a=a
 _.b=b
-_.c=0
-_.d=1},
+_.c=c
+_.d=d},
 hC:function hC(a,b,c){this.a=a
 this.b=b
 this.c=c},
@@ -84624,11 +84624,11 @@ p=q[c]
 q[c]=r[m][s]
 r[m][s]=p}else{m=a.a
 o=n.qm(m.d)
-n.y[b][c]=new A.m3(m,o)
+n.y[b][c]=new A.m3(m,o,4,5)
 if(n.c==null)n.c=m.a}n.av()},
 afB(a){var s,r,q,p,o=this
 for(s=o.y,r=0;r<3;++r)for(q=0;q<6;++q){p=s[r]
-if(p[q].a==null){p[q]=new A.m3(a,o.qm(a.d))
+if(p[q].a==null){p[q]=new A.m3(a,o.qm(a.d),4,5)
 if(o.c==null)o.c=a.a
 o.av()
 return}}},
@@ -84835,7 +84835,7 @@ return A.h_(A.du(this.a.a.b,s,s,s,B.Ac,B.ea,s),s,s)},
 $S:531}
 A.a3h.prototype={
 $0(){var s=$.cN()
-s.y[this.a][this.b]=new A.m3(null,1)
+s.y[this.a][this.b]=new A.m3(null,1,0,1)
 s.av()
 return null},
 $S:0}
